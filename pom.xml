@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.7.8</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <groupId>com.tacoz</groupId>
+    <artifactId>tacoz</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>tacoz</name>
+    <description>Demo project for Spring Boot</description>
+
+    <properties>
+        <java.version>11</java.version>
+    </properties>
+
+    <modules>
+        <module>tacoz-ms</module>
+        <module>tacoz-api</module>
+        <module>tacoz-data-mongodb</module>
+        <module>tacoz-domain-mongodb</module>
+        <module>tacoz-email</module>
+        <module>tacoz-kitchen</module>
+        <module>tacoz-messaging-jms</module>
+        <module>tacoz-messaging-kafka</module>
+        <module>tacoz-messaging-rabbitmq</module>
+        <module>tacoz-restclient</module>
+        <module>tacoz-security</module>
+        <module>tacoz-web</module>
+    </modules>
+
+</project>
