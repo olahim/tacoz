@@ -1,4 +1,4 @@
-package com.tacoz.tacozapi;
+package tacoz.web.api;
 
 import java.util.Date;
 import java.util.List;
@@ -7,7 +7,7 @@ import org.springframework.hateoas.ResourceSupport;
 import org.springframework.hateoas.core.Relation;
 
 import lombok.Getter;
-import tacoz-ms.Taco;
+import tacoz.Taco;
 
 @Relation(value="taco", collectionRelation="tacos")
 public class TacoResource extends ResourceSupport {

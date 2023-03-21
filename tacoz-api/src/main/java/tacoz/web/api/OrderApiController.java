@@ -1,4 +1,4 @@
-package com.tacoz.tacozapi;
+package tacoz.web.api;
 
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.http.HttpStatus;
@@ -16,9 +16,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
-import tacoz-ms.Order;
-import tacoz-ms.data.OrderRepository;
-import tacoz-ms.messaging.OrderMessagingService;
+
+import tacoz.Order;
+import tacoz.data.OrderRepository;
+import tacoz.messaging.OrderMessagingService;
 
 @RestController
 @RequestMapping(path="/orders",

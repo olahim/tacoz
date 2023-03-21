@@ -1,4 +1,4 @@
-package com.tacoz.tacozapi;
+package tacoz.web.api;
 
 import java.util.List;
 

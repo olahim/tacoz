@@ -1,4 +1,4 @@
-package com.tacoz.tacozapi;
+package tacoz.web.api;
 
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.methodOn;
@@ -12,7 +12,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 
 import reactor.core.publisher.Mono;
-import tacoz-ms.data.TacoRepository;
+import tacoz.data.TacoRepository;
 
 @RepositoryRestController
 public class RecentTacosController {

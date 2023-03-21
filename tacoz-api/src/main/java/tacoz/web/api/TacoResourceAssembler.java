@@ -1,8 +1,8 @@
-package com.tacoz.tacozapi;
+package tacoz.web.api;
 
 import org.springframework.hateoas.mvc.ResourceAssemblerSupport;
 
-import tacoz-ms.Taco;
+import tacoz.Taco;
 
 public class TacoResourceAssembler
         extends ResourceAssemblerSupport<Taco, TacoResource> {
